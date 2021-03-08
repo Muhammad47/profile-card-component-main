@@ -1,0 +1,92 @@
+body {
+    font-Family: Kumbh Sans;
+    margin: auto;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('/images/bg-pattern-top.svg');
+    height: 100vh;
+    background-position: -300px -450px;
+}
+.card {
+    text-align: center;
+    margin-top: 20vh;
+    margin-left: 35vw;
+    width: 400px;
+    border-radius: 25px;
+    background-color: white;
+    padding-right: 100px;
+}
+.topimg img {
+    text-align: center;
+    border-radius: 25px 25px 0px 0px;
+    height: 200px;
+    width: 500px;
+}
+.image img {
+    border: 5px solid rgb(233, 230, 230);
+    border-radius: 50%;
+    margin-top: -15%;
+    margin-left: 120px;
+}
+.image,
+.info1 {
+    background: white;
+}
+.info1 span,
+.info1 p {
+    color: hsl(0, 0%, 59%);
+}
+.info1 h3 {
+    font-Weight: 700;
+    margin-left: 100px;
+}
+.info1 span {
+    font-Weight: 700;
+}
+.info1 p {
+    font-Weight: 400;
+    margin-left: 100px;
+}
+hr {
+    width: 497px;
+    color: hsl(0, 0%, 59%);
+}
+.info{
+    display: inline-flex;
+    margin-left: 90px;
+}
+.Followers,.Likes,.Photos{
+    margin-right: 80px;
+    
+}
+
+@media (max-width:375px) {
+    .card {
+        margin-left: 10vw;
+        width: 200px;
+    }
+    .topimg img {
+       
+        height: 200px;
+        width: 300px;
+    }
+
+    hr {
+        width: 298px;
+        
+    }
+    .image img {
+       
+        margin-top: -30%;
+        margin-left: 100px;
+    }
+    .info{
+        
+        margin-left: 50px;
+    }
+    .Followers,.Likes,.Photos{
+        margin-right: 40px;
+        margin-left: -10px;
+    }
+    
+}
+
